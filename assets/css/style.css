@@ -371,11 +371,11 @@ main{
     display: flex;
 }
 
-#mobileMenu{
+.mobileMenuList{
     display: none;
 }
 
-#mobileMenuList{
+.mobileMenuList1{
     display: none;
 }
 
@@ -461,6 +461,7 @@ main{
     }
     /* Mobile Menu */
     #mobileMenu{
+        display:block;
         position:fixed;
         top: 125px;
         left: -10px;
