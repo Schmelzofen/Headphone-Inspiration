@@ -376,7 +376,7 @@ main{
 }
 
 .mobileMenuList1{
-    display: none;
+    visibility: hidden;
 }
 
 @media only screen and (max-width: 600px){
@@ -498,5 +498,6 @@ main{
         transition: 1s ease;
         position: fixed;
         left: -10px;
+        visibility: visible;
     }
 }
