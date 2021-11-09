@@ -377,6 +377,7 @@ main{
 
 .mobileMenuList1{
     visibility: hidden;
+    max-width: 0%;
 }
 
 @media only screen and (max-width: 600px){
@@ -481,6 +482,7 @@ main{
         padding: 3%;
         border-radius: 10px;
         transition: 1s ease;
+        overflow: hidden;
     }
     #mobileMenuList a{
         display: block;
@@ -499,5 +501,6 @@ main{
         position: fixed;
         left: -10px;
         visibility: visible;
+        max-width: 100%;
     }
 }
